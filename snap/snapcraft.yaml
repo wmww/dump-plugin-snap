@@ -1,0 +1,12 @@
+name: dump-snap
+version: git
+summary: A test of the dump plugin
+description: A test of the dump plugin
+confinement: strict
+grade: devel
+base: core18
+
+parts:
+  files:
+    plugin: dump
+    source: files
