@@ -1,1 +1,1 @@
-echo Hello
+cat $SNAP/hello.txt

@@ -6,7 +6,13 @@ confinement: strict
 grade: devel
 base: core18
 
+apps:
+  dump-snap:
+    command: bin/say_hello.sh
+
 parts:
   files:
     plugin: dump
     source: files
+    organize:
+      '*': bin/
